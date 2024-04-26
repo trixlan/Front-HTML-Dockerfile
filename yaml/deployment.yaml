@@ -1,0 +1,23 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  labels:
+    app: html
+  name: html
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: html
+  template:
+    metadata:
+      labels:
+        app: html
+    spec:
+      containers:
+        - image: image-registry.openshift-image-registry.svc:5000/senasica/html
+          imagePullPolicy: Always
+          name: html
+          ports:
+            - containerPort: 8080
+              protocol: TCP
