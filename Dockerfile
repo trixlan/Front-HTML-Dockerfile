@@ -1,2 +1,3 @@
-FROM httpd:2.4
-COPY . /usr/local/apache2/htdocs/
+FROM registry.redhat.io/rhel8/httpd-24
+COPY . /var/www/html/
+CMD run-httpd
