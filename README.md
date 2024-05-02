@@ -20,5 +20,5 @@ Una vez que ya tenemos el pipeline creado lo podemos desplegar
 - Vamos a la seccion de pipelines
 - Ejecutamos el pipeline de build-and-deploy (los campos ya estan pre llenados)
 - Creamos el PVC donde se almacenara la informacion mientras corre el pipeline
-- Creamos el Secret con el login de registry.redhad.com
+- Creamos el Secret con el login de registry.redhad.io
 - Desplegamos el pipeline
