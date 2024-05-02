@@ -23,7 +23,7 @@ function guardarPersona() {
 }
 
 function cargarPersonas() {
-    tableBody.remove();
+    tableBody.innerHTML = "";
     fetch(requestUrl, options)
         .then(response => response.json())
         .then(data => {
