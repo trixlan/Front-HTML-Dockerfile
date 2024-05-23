@@ -5,6 +5,7 @@
 - Tener instalado el Operador de Red Hat OpenShift Pipelines
 - Poder crear PVC dentro de OpenShift
 - Tener una cuenta de registry.redhat.com
+- Se debe tener desplegado el proyecto de Quarkus - [Github Quarkus](https://github.com/trixlan/quarkus-s2i.git)
 
 ## Despliegue
 ```console
