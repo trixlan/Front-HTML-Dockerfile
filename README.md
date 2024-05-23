@@ -2,6 +2,7 @@
 
 ## Prerequisitos 
 - Contar con un cluster de OpenShift
+- Tener instalado el Operador de Red Hat OpenShift Pipelines
 - Poder crear PVC dentro de OpenShift
 - Tener una cuenta de registry.redhat.com
 
